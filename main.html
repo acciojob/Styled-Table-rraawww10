@@ -1,15 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
+  <title>COVID-19 Statistics</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
 
-        
+    th, td {
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;   
+
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>   
+
+<body>
+
+<h2>COVID-19 Statistics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Country</th>
+      <th>Total Cases</th>
+      <th>Total Deaths</th>
+      <th>Total Recovered</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>India</td>
+      <td>44,679,493</td>
+      <td>530,777</td>
+      <td>44,142,297</td>
+    </tr>
+    <tr>
+      <td>USA</td>
+      <td>106,079,394</td>
+      <td>1,121,375</td>
+      <td>103,636,475</td>
+    </tr>
+    <tr>
+      <td>Brazil</td>
+      <td>37,474,829</td>
+      <td>707,234</td>
+      <td>36,764,599</td>
+    </tr>
+    <tr>
+      <td>France</td>
+      <td>41,450,664</td>
+      <td>162,070</td>
+      <td>41,286,148</td>
+    </tr>
+    <tr>
+      <td>Germany</td>
+
+      <td>40,598,321</td>
+      <td>161,841</td>
+      <td>40,434,080</td>
+    </tr>
+  </tbody>
+</table>
+
 </body>
 </html>
